@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "axios": "^0.21.1",
+    "crypto-js": "^4.0.0",
+    "yup": "^0.32.8"
+  }
+}
