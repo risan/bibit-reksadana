@@ -79,8 +79,6 @@ const validate = async (params) => {
 const getData = async (params = {}) => {
   const parsedParams = await validate(params);
 
-  return parsedParams;
-
   try {
     const response = await axios.request({
       method: 'GET',
