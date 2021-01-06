@@ -67,7 +67,7 @@ const validate = async (params) => {
     page: data.page,
     limit: data.per_page,
     tradable: data.buy_from_bibit ? 1 : '',
-    types: types.join(','),
+    type: types.join(','),
     syariah: data.sharia ? 1 : '',
     usd: data.usd ? 1 : '',
     sort: data.sort_direction,
@@ -78,6 +78,8 @@ const validate = async (params) => {
 
 const getData = async (params = {}) => {
   const parsedParams = await validate(params);
+
+  return parsedParams;
 
   try {
     const response = await axios.request({
