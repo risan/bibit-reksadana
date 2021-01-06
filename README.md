@@ -17,4 +17,4 @@ $ npm install
 $ vercel dev
 ```
 
-Checkout [bibit-reksadana.risan.vercel.app](https://bibit-reksadana.risan.vercel.app/) for API documentation.
+Checkout [bibit-reksadana.vercel.app](https://bibit-reksadana.vercel.app/) for API documentation.
