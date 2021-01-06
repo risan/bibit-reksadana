@@ -16,3 +16,5 @@ $ npm install
 # Spin up vercel development
 $ vercel dev
 ```
+
+Checkout [bibit-reksadana.risan.vercel.app](https://bibit-reksadana.risan.vercel.app/) for API documentation.
